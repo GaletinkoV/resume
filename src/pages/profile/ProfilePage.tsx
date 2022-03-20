@@ -1,10 +1,17 @@
 import React from "react";
-import { StyledPage } from "../../styles/common";
+
 import PersonalInformation from "./components/PageHeader/PersonalInformation";
 import Contacts from "./components/PageHeader/Contacts";
 import InformationWithDetails from "./components/InformationWithDetails/InformationWithDetails";
 
+import { StyledPage } from "../../styles/common";
+import { useProfileContext } from "../../containers/Profile/context";
+
 const ProfilePage = () => {
+  const {
+    personalInformation: { aboutMe },
+  } = useProfileContext();
+
   return (
     <StyledPage elevation={2}>
       <PersonalInformation />
