@@ -1,0 +1,183 @@
+{
+  "workExperience": [
+    {
+      "position": "UI Engineer",
+      "company": "Grid Dynamics",
+      "companyLink": "https://www.griddynamics.com/",
+      "fromDate": "09/2021",
+      "toDate": "current",
+      "responsibilities": [
+        "Supporting the web app and adding new features"
+      ],
+      "techStack": [
+        "React",
+        "Redux Toolkit",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "TypeScript",
+        "Formik",
+        "Storybook",
+        "Single SPA",
+        "GIT"
+      ]
+    },
+    {
+      "position": "React Developer/React Native Developer",
+      "company": "DDI Development",
+      "companyLink": "https://ddi-dev.com/",
+      "fromDate": "03/2021",
+      "toDate": "09/2021",
+      "responsibilities": [
+        "Supporting the web app and adding new features",
+        "Developing Storybook from scratch"
+      ],
+      "techStack": [
+        "React",
+        "GraphQL",
+        "Apollo Client",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "TypeScript",
+        "Antd Design",
+        "Formik",
+        "Storybook",
+        "GIT"
+      ]
+    },
+    {
+      "position": "Frontend Developer",
+      "company": "STEM SC",
+      "companyLink": "https://stemsc.com/",
+      "fromDate": "09/2020",
+      "toDate": "03/2021",
+      "responsibilities": [
+        "Implemented Twilio Service for audio calls. Creating conversations with chats, transferring files in chat. Opportunity for company admins to add users by invitation letter, send an announcement for specific count of users, separate users by departments and positions. Browser notifications for Chrome, Opera, Edge, Firefox, Safari",
+        "Developing the web app from scratch",
+        "Code review and mentoring"
+      ],
+      "techStack": [
+        "React",
+        "Redux",
+        "React Saga",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "TypeScript",
+        "Material UI",
+        "React Final Form",
+        "Websocket",
+        "Browser notifications",
+        "Twilio calls",
+        "GIT"
+      ]
+    },
+    {
+      "position": "React/React Native Developer",
+      "company": "Sednor Holding Limited",
+      "companyLink": "https://sednor.io/",
+      "fromDate": "08/2019",
+      "toDate": "08/2020",
+      "responsibilities": [
+        "Developing Admin Panel for Australian Hospital from scratch",
+        "Developing Mobile App for Australian Hospital from scratch"
+      ],
+      "techStack": [
+        "React",
+        "Redux",
+        "React Native",
+        "Redux Saga",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Material UI",
+        "Formik",
+        "React Hook Form",
+        "React Query",
+        "Firebase",
+        "GIT"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "university": "National Aerospace University «Kharkiv Aviation Institute» (Master's degree)",
+      "faculty": "Faculty of Radio Electronics, Computer Systems and Infocommunications",
+      "fromDate": "09/2021",
+      "toDate": "05/2023",
+      "department": "Department of Computer Systems, Networks and Cybersecurity (503)"
+    },
+    {
+      "university": "National Aerospace University «Kharkiv Aviation Institute» (Bachelor's degree)",
+      "faculty": "Faculty of Radio Electronics, Computer Systems and Infocommunications",
+      "fromDate": "09/2017",
+      "toDate": "09/2021",
+      "department": "Department of Computer Systems, Networks and Cybersecurity (503)"
+    }
+  ],
+  "hardSkills": [
+    "React",
+    "React Native",
+    "JavaScript",
+    "TypeScript",
+    "Redux",
+    "Redux Thunk/Saga",
+    "Redux Toolkit",
+    "Mobx",
+    "React Query",
+    "GraphQL",
+    "Apollo Client",
+    "Formik",
+    "React Final Form",
+    "React Hook Form",
+    "HTML5",
+    "CSS3",
+    "Material UI",
+    "Antd Design",
+    "Styled-Components",
+    "GIT",
+    "I18N",
+    "Webpack",
+    "Jest",
+    "React Testing Library",
+    "Jira",
+    "Trello",
+    "Websocket"
+  ],
+  "personalInformation": {
+    "name": "Vladimir Galetinko",
+    "position": "Software Engineer",
+    "startDate": "2019-08-01",
+    "aboutMe": "Hello, my name is Vladimir and I'm experienced UI Engineer. I have taken a part in development many projects from scratch. I know how to create the web application, which will be easy expandable and show high performance. I like to work in team, but I also feel confidence working alone. I am able to solve any UI tasks and ready to help to reach your aims."
+  },
+  "contacts": {
+    "mail": "vladimir.galetinko@gmail.com",
+    "phoneNumber": "+3800995652444",
+    "location": "Kharkiv, Ukraine",
+    "linkedin": "https://www.linkedin.com/in/vladimir-galetinko-50793b1a1/",
+    "upwork": "https://www.upwork.com/freelancers/~01ab20c95875dbe273/",
+    "github": "https://github.com/GaletinkoV"
+  },
+  "languages": [
+    {
+      "name": "Ukrainian",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "Fluent"
+    },
+    {
+      "name": "Russian",
+      "level": "Fluent"
+    }
+  ],
+  "strengths": [
+    "Teamwork",
+    "Responsibility",
+    "Self-motivation",
+    "Communication",
+    "Fast learning"
+  ]
+}
