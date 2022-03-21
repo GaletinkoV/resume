@@ -1,13 +1,15 @@
 import { Paper, styled } from "@mui/material";
 import Background from "../assets/background.jpg";
 
-export const StyledMain = styled("main")({
+export const StyledMain = styled("main")(({ theme }) => ({
   display: "flex",
   minHeight: "100vh",
-  backgroundAttachment: "fixed",
-  backgroundSize: "cover",
-  backgroundImage: `url(${Background})`,
-});
+  [theme.breakpoints.up("sm")]: {
+    backgroundAttachment: "fixed",
+    backgroundSize: "cover",
+    backgroundImage: `url(${Background})`,
+  },
+}));
 
 export const StyledPageContainer = styled("div")(({ theme }) => ({
   width: 1152,

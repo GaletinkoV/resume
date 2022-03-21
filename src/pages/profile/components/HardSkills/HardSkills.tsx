@@ -22,7 +22,9 @@ const HardSkills = () => {
       return hardSkillsWithId;
     }
 
-    return hardSkillsWithId.filter((item) => item.value.includes(search));
+    return hardSkillsWithId.filter((item) =>
+      item.value.toLowerCase().includes(search.toLowerCase())
+    );
   }, [search, hardSkillsWithId]);
 
   const onChangeSearchValue = (event: React.ChangeEvent<HTMLInputElement>) => {

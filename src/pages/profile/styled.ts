@@ -47,7 +47,7 @@ export const ContactsContainer = styled("div")(({ theme }) => ({
   gridTemplateColumns: "1fr 1fr 1fr",
   gap: 16,
   [theme.breakpoints.down("sm")]: {
-    gridTemplateColumns: "1fr 1fr",
+    gridTemplateColumns: "1fr",
   },
 }));
 

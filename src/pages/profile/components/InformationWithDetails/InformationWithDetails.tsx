@@ -1,12 +1,13 @@
-import React, { useState } from "react";
-import WorkExperience from "../WorkExperience/WorkExperience";
+import React, { useState, Suspense } from "react";
 import { Column, Subtitle } from "../../styled";
 import { Accordion, AccordionDetails, AccordionSummary } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import Education from "../Education/Education";
-import HardSkills from "../HardSkills/Hardskills";
 import { deleteValueFromArray } from "../../../../utils/common";
-import SoftSkills from "../SoftSkills/SoftSkills";
+import WorkExperience from "../WorkExperience/WorkExperience";
+
+const Education = React.lazy(() => import("../Education/Education"));
+const HardSkills = React.lazy(() => import("../HardSkills/HardSkills"));
+const SoftSkills = React.lazy(() => import("../SoftSkills/SoftSkills"));
 
 const infoBlocks = [
   {
@@ -58,6 +59,7 @@ const InformationWithDetails = () => {
 
         return (
           <Accordion
+            TransitionProps={{ mountOnEnter: true, unmountOnExit: true }}
             key={key}
             expanded={activeAccordions.includes(key)}
             onChange={handleChangeActiveAccordion(key)}
@@ -69,7 +71,11 @@ const InformationWithDetails = () => {
             >
               <Subtitle>{title}</Subtitle>
             </AccordionSummary>
-            <AccordionDetails>{Component}</AccordionDetails>
+            <AccordionDetails>
+              <Suspense fallback={<span>Loading...</span>}>
+                {Component}
+              </Suspense>
+            </AccordionDetails>
           </Accordion>
         );
       })}
